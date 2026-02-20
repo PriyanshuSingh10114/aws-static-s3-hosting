@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoluxe Website(car)</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper slide cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
+        integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>
+                <a href="#">
+                    <span>Auto</span>Luxe
+                </a>
+            </h2>
+        </div>
+        <ul class="menu_list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav_right">
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="#">+12 345 678 901</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone-volume"></i>
+                <a href="#">Autoluxe@gmail.com</a>
+            </li>
+            <i class="fa-solid fa-bars" id="toggle"></i>
+        </ul>
+    </nav>
+
+    <!-- Hero section-->
+    <div class="hero section">
+        <div class="hero_left">
+            <div class="hero_title">
+                <h2>
+                    <span id="text">
+                        Top Choice for
+                    </span>
+                    <span>Cars</span>
+                    &
+                    <span>Bike</span>
+                </h2>
+                <div class="title_text">
+                    Premium
+                </div>
+            </div>
+            <div class="car_details">
+                <h5>Your Dream Ride is just a Click Away</h5>
+                <div class="car_details_main">
+                    <ul class="car_models">
+                        <li>
+                            <img src="image/car.png" alt="">
+                            <span>Car</span>
+                        </li>
+                        <li>
+                            <img src="image/van.png" alt="">
+                            <span>Van</span>
+                        </li>
+                        <li>
+                            <img src="image/coupe.png" alt="">
+                            <span>Coupe</span>
+                        </li>
+                        <li>
+                            <img src="image/bike.png" alt="">
+                            <span>Bike</span>
+                        </li>
+                    </ul>
+
+                    <div class="Contact_info">
+                        <div class="Input_Head">
+                            <div class="Input_Box">
+                                <label>Choose Vehical type</label>
+                                <select>
+                                    <option id="value">Model</option>
+                                    <option id="value">Yamaha</option>
+                                    <option id="value">Honda</option>
+                                    <option id="value">Suzuki</option>
+                                </select>
+                            </div>
+                            <div class="Input_Box">
+                                <label>Pick up Location</label>
+                                <input type="text" placeholder="type...">
+                            </div>
+                            <div class="Input_Box">
+                                <label>Drag off Location</label>
+                                <input type="text" placeholder="type...">
+                            </div>
+                        </div>
+                        <div class="Input_Head">
+                            <div class="Input_Box">
+                                <label>Pick up update and time</label>
+                                <div class="Input_Head">
+                                    <div class="date">
+                                        <input type="text" placeholder="Date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                    </div>
+                                    <div class="time">
+                                        <input type="text" placeholder="Time">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Input_Box">
+                                <label>Return date and time</label>
+                                <div class="Input_Head">
+                                    <div class="date">
+                                        <input type="text" placeholder="Date">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                    </div>
+                                    <div class="time">
+                                        <input type="text" placeholder="Time">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn">Search Your Ride</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero_right">
+            <div class="hero_mercedes">
+                <div class="mercedes_price">
+                    <div>
+                        Mercedes
+                    </div>
+                    <div>
+                        <span>$800</span>/day
+                    </div>
+                </div>
+            </div>
+            <img src="image/car (1).png" alt="" id="Hero_Image">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="About section">
+        <div class="About_image">
+            <img src="image/abus-pic.jpg" alt="">
+        </div>
+        <div class="About_title section_title">
+            <span class="span">About Us</span>
+            <h3>Your Trusted Partner in Assistance and Supports</h3>
+            <p>We are dedicated to supporting individuals and businesses with expert assistance and comprehensive
+                solutions. With a strong foundation of trust and experience, we deliver services designed to meet your
+                unique needs.</p>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>All type Vehicle Available</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>You Get 24/7 Roadside Assistance</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>We Are The UK's Largest Provider</span>
+                </li>
+            </ul>
+            <button class="btn">read More</button>
+        </div>
+    </div>
+
+    <!-- Our Adventure Section -->
+    <div class="Our_Adventure section">
+        <div class="Our_Adventure_title section_title">
+            <span class="span">One step towards you</span>
+            <h3>Begin the Adventure of a Lifetime</h3>
+        </div>
+
+        <div class="Our_Adventure_Wrap">
+            <div class="Our_Adventure_Card">
+                <div class="Our_Adventure_Icon">
+                    <img src="image/label.png" alt="">
+                </div>
+                <div class="Our_Adventure_Info">
+                    <h3>Affordable Solutions for Every Wallet</h3>
+                    <p>No matter your budget, we have the perfect deal for you. Enjoy high-quality service and great
+                        value tailored to your needs.</p>
+                </div>
+            </div>
+            <div class="Our_Adventure_Card">
+                <div class="Our_Adventure_Icon">
+                    <img src="image/customer-support.png" alt="">
+                </div>
+                <div class="Our_Adventure_Info">
+                    <h3>Grate Deals, Whatever Your Budget</h3>
+                    <p>From budget-friendly options to premium packages, we offer something for everyone. Get the best
+                        value without compromising on quality</p>
+                </div>
+            </div>
+            <div class="Our_Adventure_Card">
+                <div class="Our_Adventure_Icon">
+                    <img src="image/customer-support.png" alt="">
+                </div>
+                <div class="Our_Adventure_Info">
+                    <h3>Tailored Deals to Fit Your Budget</h3>
+                    <p>We understand that every budget is different. That’s why we offer flexible deals that provide the
+                        best service at a price you can afford.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Feels -->
+
+    <div class="Our_Feels section">
+        <div class="Our_Feels_title section_title">
+            <span class="span">Choose your car</span>
+            <h3>Our Vehicle Fleet</h3>
+        </div>
+        <div class="swiper Myswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic1.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Jeep Renegade</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic2.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Ferarri Enzo</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic3.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Mini Cooper</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic4.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Rolls Royce Cullinan</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic5.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Porsche 911</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic6.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Chevrolet Coupe</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic7.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Ford White SUV</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic8.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Toyota Crew Cab</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="Categories section">
+        <div class="Categories_title section_title">
+            <span class="span">Categories</span>
+            <h3>A lool At All Type Of Vehicales</h3>
+        </div>
+
+        <div class="swiper Categories_Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic3.jpg" alt="">
+                        <span class="Categories_text">
+                            Hatchback
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic6.jpg" alt="">
+                        <span class="Categories_text">
+                            Coupe
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic8.jpg" alt="">
+                        <span class="Categories_text">
+                            Hybrid
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic13.jpg" alt="">
+                        <span class="Categories_text">
+                            SUV
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic8 (1).jpg" alt="">
+                        <span class="Categories_text">
+                            Sedan
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Working -->
+    <div class="Working section">
+        <div class="Working_title section_title">
+            <span class="span">How it Work</span>
+            <h3>Following Working Steps</h3>
+        </div>
+        <div class="Working_Wrap">
+            <div class="Working_item">
+                <span>01</span>
+                <div class="Working_Info">
+                    <h4>Choose A Car</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+            <div class="Working_item">
+                <span>02</span>
+                <div class="Working_Info">
+                    <h4>Pick Up Date</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+            <div class="Working_item">
+                <span>03</span>
+                <div class="Working_Info">
+                    <h4>Confirm Your Booking</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+            <div class="Working_item">
+                <span>04</span>
+                <div class="Working_Info">
+                    <h4>Enjoy Driving</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="adv_Cars">
+            <img src="image/adv-car.png" alt="" id="adv_Cars">
+        </div>
+    </div>
+
+    <!-- Testmonials Section -->
+    <div class="Testimonials section">
+        <div class="Testimonials_title section_title">
+            <span class="span">Tesimonials</span>
+            <h3>What Our Customers Say</h3>
+        </div>
+        <div class="swiper Tst_Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic1 (1).jpg" alt="">
+                            <h4>Kevin Martin <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic2 (1).jpg" alt="">
+                            <h4>Devin Cullen <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic3 (2).jpg" alt="">
+                            <h4>Piter Has <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic2 (1).jpg" alt="">
+                            <h4>Devin Cullen <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="Blog section">
+        <div class="Blog_title section_title">
+            <span class="span">From the blog</span>
+            <h3>Car And Bike Rental News</h3>
+        </div>
+
+        <div class="swiper Blog_Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Blog_Item">
+                        <img src="image/bg1.jpg" alt="">
+                        <div class="title">
+                            <span>By Mike Hardson</span>
+                            <h3>Your Perfect Memorial Day Weekend Getaway with Carntel</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Blog_Item">
+                        <img src="image/bg2.jpg" alt="">
+                        <div class="title">
+                            <span>by Devid Culum</span>
+                            <h3>The Ultimate Checklist for a Successful Car Rental Adventure</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Blog_Item">
+                        <img src="image/bg3.jpg" alt="">
+                        <div class="title">
+                            <span>By Mike Hardson</span>
+                            <h3>Tips for Renting the Perfect Car for Your Family Vacation</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Blog_Item">
+                        <img src="image/bg4.jpg" alt="">
+                        <div class="title">
+                            <span>By Mike Hardson</span>
+                            <h3>Your Perfect Memorial Day Weekend Getaway with Carntel</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Blog_Item">
+                        <img src="image/bg5.jpg" alt="">
+                        <div class="title">
+                            <span>By Mike Hardson</span>
+                            <h3>Your Perfect Memorial Day Weekend Getaway with Carntel</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Blog_Item">
+                        <img src="image/bg6.jpg" alt="">
+                        <div class="title">
+                            <span>By Mike Hardson</span>
+                            <h3>Tips for Renting the Perfect Car for Your Family Vacation</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="section">
+        <div class="Footer_Wrap">
+            <div class="Footer_left">
+                <div class="Flogo logo">
+                    <h2>
+                        <a href="#"><span>Auto</span>Luxe</a>
+                    </h2>
+                </div>
+                <p>We offer a range of the finest and most premium cars and bikes on rent.</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span>123 034 0334</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Autoluxe@gmail.com</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <span>55/11 ronia towar New York</span>
+                    </li>
+                </ul>
+
+                <ul class="social_icon">
+                    <li>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="Footer_Right">
+                <div class="Footer_menu">
+                    <div class="Footer_col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>Monday - Frinday:09:00 AM - 09:00 PM</li>
+                            <li>Saturday:09:00 AM - 07:00PM</li>
+                            <li>Sunday:Closed</li>
+                        </ul>
+                    </div>
+                    <div class="Footer_col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>FAQ's</li>
+                            <li>Services</li>
+                            <li>Team</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="Footer_col">
+                        <h3>Vehicles Type</h3>
+                        <ul>
+                            <li>
+                                SUV's
+                            </li>
+                            <li>
+                                Convertible
+                            </li>
+                            <li>
+                                Sedan
+                            </li>
+                            <li>
+                                BMW S 1000 RR
+                            </li>
+                            <li>
+                                Hayabusa
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Sport Coupe</li>
+                            <li>Wagon</li>
+                            <li>Yamaha R15</li>
+                            <li>Kawasaki</li>
+                            <li>Harley Davison</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Footer_Right_bottom">
+                    <h3>Subscribe To Our Newsletter Today !</h3>
+                    <div class="FInput_Box">
+                        <input type="text" placeholder="Email address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="Footer_Bottom">
+        <p>copyrights All Rights Reserved by <span>K2INFOCOM</span> </p>
+    </div>
+
+
+
+    <!-- swiper slide cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Gsap CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- script js -->
+    <script src="script.js"></script>
+
+    <script>
+        gsap.from('.logo', {
+            opacity: 0,
+            delay: 1,
+            x: 20,
+        });
+
+        gsap.from(menu.children, {
+            opacity: 0,
+            x: 0,
+            duration: 1,
+            delay: 1.5,
+            stagger: {
+                amount: 1
+            }
+        });
+
+        const menu_right = document.querySelector('.nav_right');
+
+        gsap.from(menu_right.children, {
+            opacity: 0,
+            x: -30,
+            duration: 1,
+            delay: 1.5,
+            stagger: {
+                amount: 1
+            }
+        });
+
+        gsap.from('.hero_title', {
+            opacity: 0,
+            delay: 2,
+            x: -50,
+        });
+
+        gsap.from('.car_details', {
+            opacity: 0,
+            delay: 2,
+            x: 20,
+        });
+
+        gsap.from('#Hero_Image', {
+            opacity: 0,
+            delay: 2.5,
+            scale:0.5,
+            x:-30
+        });
+
+
+        gsap.from('.hero_mercedes', {
+            opacity: 0,
+            delay: 2,
+        });
+
+    </script>
+</body>
+
+</html>
